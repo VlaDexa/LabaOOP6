@@ -152,7 +152,7 @@ namespace LabaOOP6
 
         public override double Area()
         {
-            return Size * Size * Math.Sqrt(3) / 4;
+            return Size * Size / Math.Sqrt(3);
         }
 
         public override System.Windows.Shapes.Shape Draw(Canvas canvas)
